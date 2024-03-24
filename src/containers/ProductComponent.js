@@ -25,9 +25,7 @@ const ProductComponent = () => {
     </div>);
     })
 
-    return(
-        <>{renderList}</>
-    );
+    return <>{renderList}</>
 };
 
 export default ProductComponent;
