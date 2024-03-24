@@ -12,7 +12,7 @@ const ProductDetail = () => {
     console.log(product);
 
     const fetchProductDetail = async (productId) => {
-        const response = await axios.get(`https://fakestoreapi.com/products/${productId}`).catch((err) => {
+        const response = await axios.get(`http://fakestoreapi.com/products/${productId}`).catch((err) => {
             console.log("Err" , err);
         });
 
